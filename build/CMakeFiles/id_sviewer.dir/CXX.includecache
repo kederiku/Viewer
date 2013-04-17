@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/debug.h
+fbxsdk.h
+../include/fbxsdk.h
+stdio.h
+../include/stdio.h
+
+../include/mesh.h
+fbxsdk.h
+-
+GLTools.h
+-
+GL/glut.h
+-
+vector
+-
+node.h
+../include/node.h
+
+../include/node.h
+fbxsdk.h
+-
+list
+-
+
+/afs/.gpp.isartdigital.com/user/all/delagr_c/rendu/Viewer/src/mesh.cpp
+mesh.h
+/afs/.gpp.isartdigital.com/user/all/delagr_c/rendu/Viewer/src/mesh.h
+iostream
+-
+debug.h
+/afs/.gpp.isartdigital.com/user/all/delagr_c/rendu/Viewer/src/debug.h
+
